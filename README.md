@@ -1,2 +1,3 @@
 # risk-calculator
-Protect your Profit &a
+Protect your Profit &amp; Protect your Capital  
+
