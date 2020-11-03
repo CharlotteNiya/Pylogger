@@ -1,1 +1,2 @@
-apply p
+apply plugin: 'com.android.application'
+apply plug
