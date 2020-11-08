@@ -8,4 +8,6 @@ android {
   defaultConfig {
     applicationId "com.diprana.riskcalculator"
     minSdkVersion 21
-    targetSdkVersion
+    targetSdkVersion 29
+    versionCode 3
+    ver
