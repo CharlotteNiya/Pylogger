@@ -10,4 +10,6 @@ android {
     minSdkVersion 21
     targetSdkVersion 29
     versionCode 3
-    ver
+    versionName "1.0"
+
+    testInstru
