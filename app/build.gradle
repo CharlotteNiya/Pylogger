@@ -16,4 +16,5 @@ android {
   }
 
   buildTypes {
- 
+    release {
+      minifyEna
