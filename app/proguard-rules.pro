@@ -13,4 +13,5 @@
 #}
 
 # Uncomment this to preserve the line number information for
-# de
+# debugging stack traces.
+#-keepat
