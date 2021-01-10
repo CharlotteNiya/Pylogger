@@ -3,4 +3,5 @@
     package="com.diprana.riskcalculator">
 
   <application
-     
+      android:allowBackup="true"
+ 
