@@ -13,4 +13,4 @@
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
 
-        <categor
+        <category android:name="android.i
