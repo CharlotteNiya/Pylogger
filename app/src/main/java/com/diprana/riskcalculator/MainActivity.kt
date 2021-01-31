@@ -22,3 +22,29 @@ class MainActivity : AppCompatActivity() {
 
   private val adapter = PortoAdapter()
   private val riskList = mutableListOf<RiskPorto>()
+  private val riskToPortoList = mutableListOf<RiskPorto>()
+
+
+  override fun onCreate(savedInstanceState: Bundle?) {
+    super.onCreate(savedInstanceState)
+    setContentView(R.layout.activity_main)
+
+    porto_recycler.layoutManager = GridLayoutManager(this, 4)
+    porto_recycler.adapter = adapter
+
+    generateDefaultData()
+
+    handleLossPercentage()
+
+    handleTakeProfit()
+
+    container.setOnClickListener {
+      val inputMethodManager = this.getSystemService(android.content.Context.INPUT_METHOD_SERVICE) as? InputMethodManager
+      inputMethodManager?.hideSoftInputFromWindow(this.currentFocus?.windowToken, 0)
+    }
+  }
+
+  private fun generateDefaultData() {
+    for (x in 10..100 step 5) {
+      val porto = RiskPorto(x, 0.0)
+      riskList.add(porto)
