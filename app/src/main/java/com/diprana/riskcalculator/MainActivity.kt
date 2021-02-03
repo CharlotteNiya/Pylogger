@@ -48,3 +48,43 @@ class MainActivity : AppCompatActivity() {
     for (x in 10..100 step 5) {
       val porto = RiskPorto(x, 0.0)
       riskList.add(porto)
+    }
+  }
+
+  private fun handleTakeProfit() {
+    take_profit.addTextChangedListener {
+      if (it.toString().isNotEmpty()) {
+
+        calculateRiskReward(it.toString().toDouble())
+      }
+    }
+  }
+
+  private fun calculateRiskReward(takeProfit: Double) {
+
+    if (entry_point.text.toString().isNotEmpty() && stop_loss.text.toString().isNotEmpty() && take_profit.text.toString().isNotEmpty()) {
+      val entryPoint = entry_point.text.toString()
+          .toDouble()
+      val stopLoss = stop_loss.text.toString()
+          .toDouble()
+
+      val risk = entryPoint - stopLoss
+      val reward = takeProfit - entryPoint
+
+      val potentialRisk = risk / risk
+      val potentialReward = reward / risk
+
+      risk_reward.text = "$potentialRisk : $potentialReward"
+
+      if (potentialReward >= 2) {
+        risk_ratio.text = "GOOD RATIO"
+        risk_ratio.setTextColor(ContextCompat.getColor(this, color.goodRatio))
+      } else {
+        risk_ratio.text = "BAD RATIO"
+        risk_ratio.setTextColor(ContextCompat.getColor(this, color.badRatio))
+      }
+    }
+  }
+
+  private fun handleLossPercentage() {
+    stop_loss.addTextChangedListener {
