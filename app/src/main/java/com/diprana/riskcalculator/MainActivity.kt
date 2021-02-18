@@ -88,3 +88,33 @@ class MainActivity : AppCompatActivity() {
 
   private fun handleLossPercentage() {
     stop_loss.addTextChangedListener {
+
+      if (take_profit.text.toString().isNotEmpty()) {
+        calculateRiskReward(take_profit.text.toString().toDouble())
+      }
+
+      if (it.toString().isNotEmpty() && entry_point.text.toString().isNotEmpty()) {
+
+        val entryPoint = entry_point.text.toString().toDouble()
+        val stopLoss = it.toString().toDouble()
+        val percentage = ((entryPoint - stopLoss) / entryPoint) * 100
+        val value = String.format("%.2f", percentage)
+        loss_percentage.text = "$value%"
+
+        riskList.map {
+          val percentagePorto = it.percentage
+          val riskToPorto = (percentage / 100) * percentagePorto
+
+          if (riskToPorto <= 2.0) {
+            val newRiskPorto = it.copy(risk = riskToPorto)
+            riskToPortoList.add(newRiskPorto)
+          }
+        }
+        val newList = riskToPortoList.toList().sortedByDescending { it.percentage }
+
+        adapter.submitList(newList)
+        riskToPortoList.clear()
+      }
+    }
+  }
+}
