@@ -10,3 +10,15 @@ class PortoAdapter : ListAdapter<RiskPorto, PortoViewHolder>(PortoDiffUtil()) {
     parent: ViewGroup,
     viewType: Int
   ): PortoViewHolder {
+    val view = LayoutInflater.from(parent.context).inflate(R.layout.item_risk_porto, parent, false)
+
+    return PortoViewHolder(view)
+  }
+
+  override fun onBindViewHolder(
+    holder: PortoViewHolder,
+    position: Int
+  ) {
+    holder.bind(getItem(position))
+  }
+}
