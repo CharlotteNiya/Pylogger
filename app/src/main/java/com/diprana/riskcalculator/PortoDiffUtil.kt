@@ -7,4 +7,5 @@ class PortoDiffUtil : ItemCallback<RiskPorto>() {
   override fun areItemsTheSame(
     oldItem: RiskPorto,
     newItem: RiskPorto
-  
+  ): Boolean {
+    return oldItem.hashCode()
