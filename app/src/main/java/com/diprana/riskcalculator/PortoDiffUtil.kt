@@ -5,4 +5,6 @@ import androidx.recyclerview.widget.DiffUtil.ItemCallback
 class PortoDiffUtil : ItemCallback<RiskPorto>() {
 
   override fun areItemsTheSame(
-    oldItem: 
+    oldItem: RiskPorto,
+    newItem: RiskPorto
+  
