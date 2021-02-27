@@ -8,4 +8,7 @@ class PortoDiffUtil : ItemCallback<RiskPorto>() {
     oldItem: RiskPorto,
     newItem: RiskPorto
   ): Boolean {
-    return oldItem.hashCode()
+    return oldItem.hashCode() == newItem.hashCode()
+  }
+
+  
