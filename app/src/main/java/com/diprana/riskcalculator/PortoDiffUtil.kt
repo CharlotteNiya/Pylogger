@@ -12,4 +12,5 @@ class PortoDiffUtil : ItemCallback<RiskPorto>() {
   }
 
   override fun areContentsTheSame(
-  
+    oldItem: RiskPorto,
+    newIte
