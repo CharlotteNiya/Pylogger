@@ -15,4 +15,4 @@ class PortoDiffUtil : ItemCallback<RiskPorto>() {
     oldItem: RiskPorto,
     newItem: RiskPorto
   ): Boolean {
-    re
+    return oldItem.percentage == newItem.percen
