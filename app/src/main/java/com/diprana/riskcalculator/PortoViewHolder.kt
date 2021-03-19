@@ -5,4 +5,4 @@ import androidx.recyclerview.widget.RecyclerView.ViewHolder
 import kotlinx.android.synthetic.main.item_risk_porto.view.risk_porto_percentage
 import kotlinx.android.synthetic.main.item_risk_porto.view.risk_to_porto
 
-class PortoView
+class PortoViewHolder(itemView: View) : ViewHolder
