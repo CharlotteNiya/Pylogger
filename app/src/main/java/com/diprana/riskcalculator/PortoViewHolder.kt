@@ -9,4 +9,7 @@ class PortoViewHolder(itemView: View) : ViewHolder(itemView) {
   fun bind(item: RiskPorto) {
     val riskPercentage = String.format("%.2f", item.risk)
 
-    itemView.risk_to_porto.text = "$riskPercentage%
+    itemView.risk_to_porto.text = "$riskPercentage%"
+
+
+    itemView.risk_porto_percenta
