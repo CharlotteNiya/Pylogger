@@ -12,4 +12,6 @@ class PortoViewHolder(itemView: View) : ViewHolder(itemView) {
     itemView.risk_to_porto.text = "$riskPercentage%"
 
 
-    itemView.risk_porto_percenta
+    itemView.risk_porto_percentage.text = "${item.percentage}% Porto"
+  }
+}
