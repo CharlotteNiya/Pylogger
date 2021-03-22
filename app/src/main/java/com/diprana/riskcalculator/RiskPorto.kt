@@ -1,4 +1,5 @@
 package com.diprana.riskcalculator
 
 data class RiskPorto(
-  v
+  val percentage: Int,
+  val risk: Doub
