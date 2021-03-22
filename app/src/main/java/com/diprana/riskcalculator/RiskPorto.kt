@@ -1,1 +1,4 @@
-package com.diprana.riskcalc
+package com.diprana.riskcalculator
+
+data class RiskPorto(
+  v
