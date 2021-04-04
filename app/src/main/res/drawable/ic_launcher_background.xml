@@ -5,4 +5,5 @@
     android:viewportWidth="108"
     android:width="108dp">
   <path
- 
+      android:fillColor="#3DDC84"
+      andr
