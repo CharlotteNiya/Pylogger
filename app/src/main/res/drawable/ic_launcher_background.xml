@@ -74,4 +74,5 @@
       android:strokeWidth="0.8" />
   <path
       android:fillColor="#00000000"
-      androi
+      android:pathData="M0,39L108,39"
+      andro
