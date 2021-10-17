@@ -17,4 +17,4 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
-        <com.googl
+        <com.google.android.material.textfield.TextInputEdit
