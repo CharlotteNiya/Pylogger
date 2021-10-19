@@ -18,4 +18,5 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+
+            android:id="@+id/entry_point"
+            android:la
