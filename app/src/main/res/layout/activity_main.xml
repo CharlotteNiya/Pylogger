@@ -24,4 +24,6 @@
             android:inputType="number"
             android:hint="Entry point" />
 
-    </com.google.android.material.textfield.Te
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android
