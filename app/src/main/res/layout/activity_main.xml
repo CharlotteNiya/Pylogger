@@ -28,4 +28,5 @@
 
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
-        androi
+        android:layout_marginLeft="8dp"
+        andr
