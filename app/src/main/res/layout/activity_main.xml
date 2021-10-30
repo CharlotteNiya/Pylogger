@@ -32,4 +32,5 @@
         android:layout_marginRight="8dp"
         android:layout_height="wrap_content">
 
-        <com.google.android.material.textf
+        <com.google.android.material.textfield.TextInputEditText
+       
