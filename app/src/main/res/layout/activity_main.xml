@@ -33,4 +33,5 @@
         android:layout_height="wrap_content">
 
         <com.google.android.material.textfield.TextInputEditText
-       
+            android:id="@+id/stop_loss"
+        
