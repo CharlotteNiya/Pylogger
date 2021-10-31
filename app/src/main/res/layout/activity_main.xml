@@ -34,4 +34,5 @@
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/stop_loss"
-        
+            android:layout_width="match_parent"
+       
