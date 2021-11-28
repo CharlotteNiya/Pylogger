@@ -39,4 +39,6 @@
             android:inputType="number"
             android:hint="Stop loss" />
 
-    </com.google.android.material.textfield.TextInpu
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.text
