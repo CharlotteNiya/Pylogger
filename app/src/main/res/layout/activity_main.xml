@@ -48,4 +48,5 @@
         android:layout_height="wrap_content">
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+i
+            android:id="@+id/take_profit"
+            andr
