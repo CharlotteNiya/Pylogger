@@ -53,4 +53,6 @@
             android:layout_height="wrap_content"
             android:inputType="number"
             android:hint="Take Profit" />
-    </com.google.android.material.t
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <LinearLa
