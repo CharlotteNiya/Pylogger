@@ -55,4 +55,5 @@
             android:hint="Take Profit" />
     </com.google.android.material.textfield.TextInputLayout>
 
-    <LinearLa
+    <LinearLayout
+        android:layout_width="ma
