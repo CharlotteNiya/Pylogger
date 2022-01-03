@@ -56,4 +56,5 @@
     </com.google.android.material.textfield.TextInputLayout>
 
     <LinearLayout
-        android:layout_width="ma
+        android:layout_width="match_parent"
+        android:layout_height="wrap
