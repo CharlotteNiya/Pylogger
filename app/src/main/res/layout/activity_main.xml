@@ -61,4 +61,6 @@
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginTop="24dp"
-        android:orie
+        android:orientation="horizontal">
+
+        <TextView
