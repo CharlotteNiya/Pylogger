@@ -69,4 +69,5 @@
             android:text="Risk Reward = "
             android:textSize="16sp" />
 
-  
+        <TextView
+            android:
