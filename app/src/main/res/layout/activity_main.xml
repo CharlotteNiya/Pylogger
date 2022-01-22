@@ -70,4 +70,5 @@
             android:textSize="16sp" />
 
         <TextView
-            android:
+            android:id="@+id/risk_reward"
+            a
