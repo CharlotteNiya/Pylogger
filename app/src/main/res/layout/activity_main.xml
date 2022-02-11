@@ -77,4 +77,4 @@
             tools:text="4.4%" />
 
         <TextView
-    
+            android:id="@+id/risk_rati
