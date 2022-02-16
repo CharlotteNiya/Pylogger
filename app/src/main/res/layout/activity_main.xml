@@ -80,4 +80,5 @@
             android:id="@+id/risk_ratio"
             android:layout_width="wrap_content"
             android:textSize="16sp"
-            android:layo
+            android:layout_marginLeft="24dp"
+            android:t
