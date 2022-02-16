@@ -81,4 +81,5 @@
             android:layout_width="wrap_content"
             android:textSize="16sp"
             android:layout_marginLeft="24dp"
-            android:t
+            android:textStyle="bold"
+            android:layou
