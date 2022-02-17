@@ -87,4 +87,5 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        andro
+        android:layout_height="wrap_content"
+        
