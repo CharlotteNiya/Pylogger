@@ -100,4 +100,5 @@
             android:textSize="16sp" />
 
         <TextView
-            android:id="@+id/loss_pe
+            android:id="@+id/loss_percentage"
+            android:layo
