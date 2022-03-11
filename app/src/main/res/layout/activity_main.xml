@@ -99,4 +99,5 @@
             android:text="Potential Loss percentage : "
             android:textSize="16sp" />
 
-        <TextV
+        <TextView
+            android:id="@+id/loss_pe
