@@ -119,4 +119,4 @@
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/porto_recycler"
- 
+        android:layout_width="match_pa
