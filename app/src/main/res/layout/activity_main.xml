@@ -118,4 +118,5 @@
         android:textSize="20sp" />
 
     <androidx.recyclerview.widget.RecyclerView
-  
+        android:id="@+id/porto_recycler"
+ 
