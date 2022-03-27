@@ -119,4 +119,5 @@
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/porto_recycler"
-        android:layout_width="match_pa
+        android:layout_width="match_parent"
+        android:layout_marginBottom="24d
