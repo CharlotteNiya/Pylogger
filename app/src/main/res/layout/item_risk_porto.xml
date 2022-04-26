@@ -8,4 +8,5 @@
 
   <androidx.cardview.widget.CardView
       android:id="@+id/card_container"
-      android:layout_w
+      android:layout_width="77dp"
+      android:layout_height="77
