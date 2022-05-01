@@ -10,4 +10,6 @@
       android:id="@+id/card_container"
       android:layout_width="77dp"
       android:layout_height="77dp"
-      android:layout_gravity="cente
+      android:layout_gravity="center"
+      app:cardCornerRadius="24dp"
+      
