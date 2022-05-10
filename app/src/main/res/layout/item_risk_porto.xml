@@ -12,4 +12,5 @@
       android:layout_height="77dp"
       android:layout_gravity="center"
       app:cardCornerRadius="24dp"
-      
+      app:cardElevation="8dp"
+      android:
