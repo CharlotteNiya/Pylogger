@@ -14,4 +14,4 @@
       app:cardCornerRadius="24dp"
       app:cardElevation="8dp"
       android:layout_margin="8dp"
-      app:layout
+      app:layout_constraintBottom_toTopOf="@id/
