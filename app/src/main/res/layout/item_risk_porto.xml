@@ -16,4 +16,5 @@
       android:layout_margin="8dp"
       app:layout_constraintBottom_toTopOf="@id/risk_porto_percentage"
       app:layout_constraintLeft_toLeftOf="parent"
-      app:layout_constraintRight_toRightOf
+      app:layout_constraintRight_toRightOf="parent"
+      app:layout_constraint
