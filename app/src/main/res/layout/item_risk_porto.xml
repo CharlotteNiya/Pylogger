@@ -20,4 +20,4 @@
       app:layout_constraintTop_toTopOf="parent">
 
     <androidx.appcompat.widget.AppCompatTextView
-       
+        android:id="@+id/risk_to_por
