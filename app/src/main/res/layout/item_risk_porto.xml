@@ -21,4 +21,5 @@
 
     <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/risk_to_porto"
-        android:layout_width="match_parent
+        android:layout_width="match_parent"
+        android:layout_height="mat
