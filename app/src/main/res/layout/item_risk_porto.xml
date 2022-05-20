@@ -23,4 +23,6 @@
         android:id="@+id/risk_to_porto"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:textSize="
+        android:textSize="16sp"
+        android:textColor="#000"
+       
