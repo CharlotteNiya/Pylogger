@@ -26,4 +26,5 @@
         android:textSize="16sp"
         android:textColor="#000"
         tools:text="10%"
-        android:
+        android:gravity="center"
+        android:la
