@@ -32,4 +32,5 @@
 
   </androidx.cardview.widget.CardView>
 
-  <androidx.appcompat.widget.Ap
+  <androidx.appcompat.widget.AppCompatTextView
+      androi
