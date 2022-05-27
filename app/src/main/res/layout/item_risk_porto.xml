@@ -33,4 +33,4 @@
   </androidx.cardview.widget.CardView>
 
   <androidx.appcompat.widget.AppCompatTextView
-      androi
+      android:id="@+id/risk_porto_percentage
