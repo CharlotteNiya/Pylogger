@@ -35,4 +35,5 @@
   <androidx.appcompat.widget.AppCompatTextView
       android:id="@+id/risk_porto_percentage"
       android:layout_width="88dp"
-      android:layout_height="wrap_con
+      android:layout_height="wrap_content"
+      android:ellipsize="end"
