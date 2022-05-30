@@ -37,3 +37,5 @@
       android:layout_width="88dp"
       android:layout_height="wrap_content"
       android:ellipsize="end"
+      android:gravity="center_horizontal"
+      andr
