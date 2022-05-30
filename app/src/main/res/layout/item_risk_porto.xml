@@ -38,4 +38,5 @@
       android:layout_height="wrap_content"
       android:ellipsize="end"
       android:gravity="center_horizontal"
-      andr
+      android:lineSpacingExtra="4sp"
+      android:lin
