@@ -41,4 +41,5 @@
       android:lineSpacingExtra="4sp"
       android:lines="1"
       android:textColor="#000"
-   
+      android:textSize="14sp"
+      a
