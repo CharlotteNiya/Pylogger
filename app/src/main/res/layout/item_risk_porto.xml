@@ -42,4 +42,4 @@
       android:lines="1"
       android:textColor="#000"
       android:textSize="14sp"
-      a
+      app:layout_constraintBottom_toBottomOf="pa
