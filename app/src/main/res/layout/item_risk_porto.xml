@@ -42,4 +42,5 @@
       android:lines="1"
       android:textColor="#000"
       android:textSize="14sp"
-      app:layout_constraintBottom_toBottomOf="pa
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_c
