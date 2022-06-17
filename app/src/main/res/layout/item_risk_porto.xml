@@ -46,4 +46,6 @@
       app:layout_constraintLeft_toLeftOf="parent "
       app:layout_constraintRight_toRightOf="parent"
       app:layout_constraintTop_toBottomOf="@id/card_container"
-      tools:text="Champions asf asf asfasf as fa
+      tools:text="Champions asf asf asfasf as fas f" />
+
+</androidx.constraintlayo
