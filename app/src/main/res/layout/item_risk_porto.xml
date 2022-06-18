@@ -48,4 +48,4 @@
       app:layout_constraintTop_toBottomOf="@id/card_container"
       tools:text="Champions asf asf asfasf as fas f" />
 
-</androidx.constraintlayo
+</androidx.constraintlayout.widget.ConstraintLayout>
