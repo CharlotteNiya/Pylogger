@@ -4,4 +4,5 @@
   <color name="colorPrimaryDark">#104929</color>
   <color name="colorAccent">#03DAC5</color>
   <color name="goodRatio">#03670D</color>
-  <color
+  <color name="badRatio">#67081B</color>
+</res
