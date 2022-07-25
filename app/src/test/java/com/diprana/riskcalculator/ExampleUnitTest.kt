@@ -2,4 +2,7 @@ package com.diprana.riskcalculator
 
 import org.junit.Test
 
-import
+import org.junit.Assert.*
+
+/**
+ * Example local u
