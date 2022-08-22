@@ -17,4 +17,8 @@ buildscript {
 allprojects {
   repositories {
     google()
-    
+    jcenter()
+  }
+}
+
+task clean
