@@ -7,4 +7,6 @@
 ##############################################################################
 
 # Attempt to set APP_HOME
-# Resolv
+# Resolve links: $0 may be a link
+PRG="$0"
+# N
