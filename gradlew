@@ -16,3 +16,4 @@ while [ -h "$PRG" ] ; do
     if expr "$link" : '/.*' > /dev/null; then
         PRG="$link"
     else
+        PRG=`dirname "$PRG"`"/$link"
