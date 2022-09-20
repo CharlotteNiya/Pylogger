@@ -48,3 +48,6 @@ die () {
 cygwin=false
 msys=false
 darwin=false
+nonstop=false
+case "`uname`" in
+ 
