@@ -60,4 +60,8 @@ case "`uname`" in
     msys=true
     ;;
   NONSTOP* )
-    n
+    nonstop=true
+    ;;
+esac
+
+CLAS
