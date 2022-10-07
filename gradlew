@@ -74,4 +74,5 @@ if [ -n "$JAVA_HOME" ] ; then
     else
         JAVACMD="$JAVA_HOME/bin/java"
     fi
-    if [ ! -x "$JAVACMD" ] ; th
+    if [ ! -x "$JAVACMD" ] ; then
+        die "ERROR: JAVA_HOME is set to a
