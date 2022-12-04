@@ -122,4 +122,5 @@ if $cygwin ; then
         ROOTDIRS="$ROOTDIRS$SEP$dir"
         SEP="|"
     done
-    OURCYGPATTER
+    OURCYGPATTERN="(^($ROOTDIRS))"
+    # Add a user-defi
