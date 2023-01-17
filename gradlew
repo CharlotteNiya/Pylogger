@@ -138,4 +138,7 @@ if $cygwin ; then
         else
             eval `echo args$i`="\"$arg\""
         fi
-        i=$((i
+        i=$((i+1))
+    done
+    case $i in
+        (0) set 
