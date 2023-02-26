@@ -154,4 +154,6 @@ if $cygwin ; then
     esac
 fi
 
-# Escape application a
+# Escape application args
+save () {
+    for i do printf %s\\n 
