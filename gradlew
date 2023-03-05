@@ -161,4 +161,4 @@ save () {
 }
 APP_ARGS=$(save "$@")
 
-# Colle
+# Collect all arguments for the java command, followi
